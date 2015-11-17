@@ -12,14 +12,14 @@ The probability and the breakdown of each location is as follows:
 - casino 20% +/- 40 - 50 gold (random)
 
 Feautures:
-1. counter for number of attemps
-2. counter for total gold. Make it red if he loses money and green if he gains money
-3. A log of the event. If the ninja loses money, make the log color red and green if he gains money.
-4. Reset button (gold 0 and trys 20)
-5. 4 different locations with buttons (no need for actual pictures of the location)
-6. A ninja sprite that moves around the different locations. (when you click goldmine, he will move to goldmine. When you click casino he will move to the casino)
+- counter for number of attemps
+- counter for total gold. Make it red if he loses money and green if he gains money
+- A log of the event. If the ninja loses money, make the log color red and green if he gains money.
+- Reset button (gold 0 and trys 20)
+- Different locations with buttons (no need for actual pictures of the location)
+- A ninja sprite that moves around the different locations. (when you click goldmine, he will move to goldmine. When you click casino he will move to the casino)
 
-Bonus:
+##Bonus##
 Persist the score even with a browswer refresh.
 
 
