@@ -8,13 +8,13 @@ In 20 trys, the ninja should reach 250 gold.
 
 ### Probability and breakdown ###
 - cave 100% + 5 gold
-- house 80% +/- 10 gold
-- goldmine 60% +/- 20 - 25  gold (random)
-- casino 40% +/- 40 - 50 gold (random)
+- house 80% + 10 gold
+- goldmine 80% + 1 - 25  gold (random)
+- casino 50% (+ OR -) 40 - 50 gold (random)
 
 ###Features###
 - Counter for number of attemps
-- Counter for total gold. Make it red if he loses money and green if he gains money
+- Counter for total gold. Make it red if he loses money, black if 0 gain or loss and green if he gains money
 - A log of the event. If the ninja loses money, make the log text color red and green if he gains money.
 - Reset button (gold 0 and trys 20)
 - Different locations with buttons (no need for actual pictures of the location)
