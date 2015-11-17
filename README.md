@@ -23,10 +23,10 @@ Feautures:
 
 For the log, use an array of the event (json object contains data like the time, location and amount) 
 
-{ location: 'cave',
+'''{ location: 'cave',
   time: 'some date string',
   amount: -40
-}
+}'''
 
 Use the same array for getting the total score as well. 
 
