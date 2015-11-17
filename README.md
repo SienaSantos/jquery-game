@@ -14,7 +14,7 @@ The probability and the breakdown of each location is as follows:
 Feautures:
 - Counter for number of attemps
 - Counter for total gold. Make it red if he loses money and green if he gains money
-- A log of the event. If the ninja loses money, make the log color red and green if he gains money.
+- A log of the event. If the ninja loses money, make the log text color red and green if he gains money.
 - Reset button (gold 0 and trys 20)
 - Different locations with buttons (no need for actual pictures of the location)
 - A ninja sprite that moves around the different locations. (when you click goldmine, he will move to goldmine. When you click casino he will move to the casino)
@@ -29,11 +29,17 @@ For the log, use an array of the event (json object contains data like the time,
   amount: -40
 }```
 
-Use the same array for getting the total score as well. 
+Use the same array for getting the total score. 
+
+###Log###
+- Use bootstrap tabs to sort the different logs. All, Losses, Gains.
+- Create separate arrays for negative and positive events. 
+- Also put the total gains and total losses.
+- Learn to use Array.filter or Array.reduce Array.map functions. You can use jQuery equivalents
 
 ##Bonus##
-Persist the data (score and log) even with a browser refresh.
-Deploy it using surge.sh
+- Persist the data (score and log) even with a browser refresh.
+- Deploy it using surge.sh
 
 
 
