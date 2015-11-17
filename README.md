@@ -5,7 +5,7 @@ Our main character is a ninja in search for gold. He can find gold in 4 differen
 ###Goal###
 In 20 trys, the ninja should reach 250 gold.
 
-### Probability and the breakdown ###
+### Probability and breakdown ###
 - cave 100% + 5 gold
 - house 80% +/- 10 gold
 - goldmine 60% +/- 20 - 25  gold (random)
@@ -22,20 +22,26 @@ In 20 trys, the ninja should reach 250 gold.
 
 ##Other Notes##
 
-For the log, use an array of the event (json object contains data like the time, location and amount) 
+For the log, use an array of events (json object contains data like the time, location and amount) 
 
 ```{ location: 'cave',
   time: 'some date string',
   amount: -40
 }```
 
-Use the same array for getting the total score. 
+One possible data structure might be 
+```{total: 0,
+    attempts:20,
+    events: [],
+}```
+
+Use the same events array for getting the total score. Or you can store it inside the object as total.  
 
 ###Log###
 - Use bootstrap tabs to sort the different logs. All, Losses, Gains.
-- Create separate arrays for negative and positive events. 
+- Create separate arrays for logging negative and positive events. 
 - Also put the total gains and total losses.
-- Learn to use Array.filter or Array.reduce Array.map functions. You can use jQuery equivalents
+- Learn to use Array.filter or Array.reduce Array.map functions. You can use jQuery equivalents $.each and $.map
 
 ##Bonus##
 - Persist the data (score and log) even with a browser refresh.
