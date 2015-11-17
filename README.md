@@ -19,6 +19,7 @@ Feautures:
 - Different locations with buttons (no need for actual pictures of the location)
 - A ninja sprite that moves around the different locations. (when you click goldmine, he will move to goldmine. When you click casino he will move to the casino)
 
+
 ##Other Notes##
 
 For the log, use an array of the event (json object contains data like the time, location and amount) 
@@ -32,6 +33,7 @@ Use the same array for getting the total score as well.
 
 ##Bonus##
 Persist the data (score and log) even with a browser refresh.
+Deploy it using surge.sh
 
 
 
