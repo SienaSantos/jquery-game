@@ -12,15 +12,26 @@ The probability and the breakdown of each location is as follows:
 - casino 20% +/- 40 - 50 gold (random)
 
 Feautures:
-- counter for number of attemps
-- counter for total gold. Make it red if he loses money and green if he gains money
+- Counter for number of attemps
+- Counter for total gold. Make it red if he loses money and green if he gains money
 - A log of the event. If the ninja loses money, make the log color red and green if he gains money.
 - Reset button (gold 0 and trys 20)
 - Different locations with buttons (no need for actual pictures of the location)
 - A ninja sprite that moves around the different locations. (when you click goldmine, he will move to goldmine. When you click casino he will move to the casino)
 
+##Other Notes##
+
+For the log, use an array of the event (json object contains data like the time, location and amount) 
+
+{ location: 'cave',
+  time: 'some date string',
+  amount: -40
+}
+
+Use the same array for getting the total score as well. 
+
 ##Bonus##
-Persist the score even with a browswer refresh.
+Persist the data (score and log) even with a browser refresh.
 
 
 
