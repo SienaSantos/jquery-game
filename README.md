@@ -1,5 +1,6 @@
 # Ninja Gold
 For our jQuery practice, you're going to make a game. We will call this game, Ninja Gold.
+jQuery does both DOM manipulation (HTML, CSS) and data manipulation. We will practice both. The Ninja moving around will be the DOM part and the log will be the data manipulation part.
 
 Our main character is a ninja in search for gold. He can find gold in 4 different places: the cave, the house, the goldmine and at the casino. 
 ###Goal###
