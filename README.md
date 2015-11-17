@@ -5,13 +5,13 @@ Our main character is a ninja in search for gold. He can find gold in 4 differen
 ###Goal###
 In 20 trys, the ninja should reach 250 gold.
 
-The probability and the breakdown of each location is as follows:
+### Probability and the breakdown ###
 - cave 100% + 5 gold
 - house 80% +/- 10 gold
 - goldmine 60% +/- 20 - 25  gold (random)
 - casino 40% +/- 40 - 50 gold (random)
 
-Feautures:
+###Features###
 - Counter for number of attemps
 - Counter for total gold. Make it red if he loses money and green if he gains money
 - A log of the event. If the ninja loses money, make the log text color red and green if he gains money.
