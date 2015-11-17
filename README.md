@@ -1,15 +1,15 @@
-# jquery-game
+# Ninja Gold
 For our jQuery practice, you're going to make a game. We will call this game, Ninja Gold.
 
 Our main character is a ninja in search for gold. He can find gold in 4 different places: the cave, the house, the goldmine and at the casino. 
-
-In 20 trys, the ninja should reach 200 gold.
+###Goal###
+In 20 trys, the ninja should reach 250 gold.
 
 The probability and the breakdown of each location is as follows:
-- cave 80% +/- 5 gold
-- house 60% +/- 10 gold
-- goldmine 40% +/- 20 - 25  gold (random)
-- casino 20% +/- 40 - 50 gold (random)
+- cave 100% + 5 gold
+- house 80% +/- 10 gold
+- goldmine 60% +/- 20 - 25  gold (random)
+- casino 40% +/- 40 - 50 gold (random)
 
 Feautures:
 - Counter for number of attemps
